@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name:       Email Signup
+ * Plugin Name:       Chaser Email Signup
  * Description:       Example block scaffolded with Create Block tool.
- * Version:           2.2.5
+ * Version:           2.2.6
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       email-signup
+ * Text Domain:       chaser-email-signup
  *
  * @package CreateBlock
  */
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function create_block_email_signup_block_init() {
-  register_block_type( __DIR__ . '/build/email-signup' );
+  register_block_type( __DIR__ . '/build/chaser-email-signup' );
 }
 add_action( 'init', 'create_block_email_signup_block_init' );
 
