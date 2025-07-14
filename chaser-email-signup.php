@@ -60,7 +60,7 @@ function register_email(WP_REST_Request $request) {
         'campaignId' => $campaign_id
       ),
       'tags' => array(
-          array('tagId' => 'email_signup_block') // Replace $tag_id with your actual tag ID
+        array('tagId' => 'seGm') 
       )
     )),
     'headers' => array(
