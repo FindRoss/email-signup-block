@@ -43,6 +43,22 @@
 			// $breakpoint-small: 576px;
 			// $breakpoint-medium: 768px;
 
+			// label {
+			// 	display: none; 
+			// 	visibility: hidden;
+			// }
+
+			.visually-hidden {
+				position: absolute;
+				width: 1px;
+				height: 1px;
+				padding: 0;
+				margin: -1px;
+				overflow: hidden;
+				clip: rect(0,0,0,0);
+				border: 0;
+			}
+
 			@media screen and (min-width: 768px) {
 				flex-direction: row;
 				// align-items: center;
