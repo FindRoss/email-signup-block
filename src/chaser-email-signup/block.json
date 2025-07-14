@@ -2,11 +2,11 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
 	"name": "create-block/chaser-email-signup",
-	"version": "2.2.6",
+	"version": "2.3.0",
 	"title": "Email Signup",
 	"category": "widgets",
 	"icon": "email",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "A WordPress block created with @wordpress/scripts to display an email signup form.",
 	"example": {},
 	"supports": {
 		"html": false

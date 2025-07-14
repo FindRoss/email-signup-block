@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       Chaser Email Signup
- * Description:       Example block scaffolded with Create Block tool.
- * Version:           2.2.6
+ * Description:       A WordPress block created with @wordpress/scripts to display an email signup form.
+ * Version:           2.3.0
  * Requires at least: 6.7
  * Requires PHP:      7.4
- * Author:            The WordPress Contributors
+ * Author:            Ross Findlay
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       chaser-email-signup
