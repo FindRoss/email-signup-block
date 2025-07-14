@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Chaser Email Signup
  * Description:       A WordPress block created with @wordpress/scripts to display an email signup form.
- * Version:           2.3.0
+ * Version:           2.3.2
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Ross Findlay
@@ -58,6 +58,9 @@ function register_email(WP_REST_Request $request) {
       'email' => $email,
       'campaign' => array(
         'campaignId' => $campaign_id
+      ),
+      'tags' => array(
+          array('tagId' => 'email_signup_block') // Replace $tag_id with your actual tag ID
       )
     )),
     'headers' => array(

@@ -12,11 +12,11 @@ registerBlockType(metadata.name, {
 	attributes: {
 		heading: {
 			type: 'string',
-			default: 'Sign up for our newsletter',
+			default: 'Crypto Casino Deals in Your Inbox',
 		},
 		subtitle: {
 			type: 'string',
-			default: 'Get the latest promotions, top bonuses, and special offers - delivered straight to your inbox twice a week.',
+			default: 'Sign up for our twice-weekly email promos and bonuses.',
 		},
 	},
 	edit: Edit,

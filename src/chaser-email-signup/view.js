@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       try {
         const result = await registerEmail(email);
-        // console.log('Form submitted successfully:', result);
+        console.log('Form submitted successfully: ', result);
 
         // Two screens I am dealing with
         const formScreen = document.querySelector('.email-signup--form-screen');
