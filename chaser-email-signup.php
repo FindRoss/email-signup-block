@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Chaser Email Signup
  * Description:       A WordPress block created with @wordpress/scripts to display an email signup form.
- * Version:           2.3.3
+ * Version:           2.3.4
  * Requires at least: 6.7
  * Requires PHP:      7.4
  * Author:            Ross Findlay

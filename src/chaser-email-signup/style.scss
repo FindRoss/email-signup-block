@@ -1,23 +1,26 @@
 .wp-block-create-block-chaser-email-signup {
 	margin-top: 1.33rem;
 	margin-bottom: 1.33rem;
-	
+
 	.email-signup {
 		border-left: 6px solid #f1f1f1;
+		border-right: 1px solid #f1f1f1;
+		border-top: 1px solid #f1f1f1;
+		border-bottom: 1px solid #f1f1f1;
 		background: #f9f9f9;
 		border-radius: 8px;
 		padding: 0.75rem;
 
-		&__heading	 {
+		&__heading {
 			margin: 0;
-	
+
 			display: flex;
 			gap: 0.35rem;
 			align-items: center;
-		
+
 
 			svg {
-				height: 24px;	 
+				height: 24px;
 				width: auto;
 			}
 
@@ -34,7 +37,7 @@
 			font-size: 18px;
 			color: #797979;
 		}
-		
+
 		&__form {
 			display: flex;
 			flex-direction: column;
@@ -48,13 +51,13 @@
 				padding: 0;
 				margin: -1px;
 				overflow: hidden;
-				clip: rect(0,0,0,0);
+				clip: rect(0, 0, 0, 0);
 				border: 0;
 			}
 
 			@media screen and (min-width: 768px) {
 				flex-direction: row;
-			}			
+			}
 
 			input {
 				padding: 8px;
@@ -66,4 +69,3 @@
 		}
 	}
 }
-
