@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const email = form.querySelector('#email').value;
 
       try {
-        const result = await registerEmail(email);
+        await registerEmail(email);
         // console.log('Form submitted successfully: ', result);
 
         // Two screens I am dealing with
