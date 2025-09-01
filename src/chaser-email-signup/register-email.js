@@ -7,6 +7,6 @@ export async function registerEmail(email) {
     email: email
   });
 
-  console.log('Email contact registered:', response);
+  // console.log('Email contact registered:', response);
   return response.data;
 }
