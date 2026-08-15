@@ -1,7 +1,6 @@
 import { useBlockProps } from '@wordpress/block-editor';
 import { mailIcon, successIcon } from './icons';
 
-
 export default function save({ attributes }) {
 	const { heading, subtitle } = attributes;
 
