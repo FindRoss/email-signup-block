@@ -5,6 +5,11 @@
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
+	"files": [
+		"chaser-email-signup.php",
+		"admin-settings.php",
+		"build"
+	],
 	"scripts": {
 		"build": "wp-scripts build",
 		"watch": "wp-scripts start",

@@ -7,7 +7,7 @@ yarn-error.log*
 
 build
 
-email-signup-deploy/
+/chaser-email-signup-deploy
 
 # Coverage directory used by tools like istanbul
 coverage
